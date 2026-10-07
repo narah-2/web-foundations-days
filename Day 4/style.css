@@ -1,0 +1,84 @@
+:root {
+    --bg-color: #f4f4f4;
+    --text-color: #222;
+    --card-color: white;
+    --button-color: #333;
+    --button-text: white;
+    --border-color: #ccc;
+}
+
+body.dark {
+    --bg-color: #222;
+    --text-color: #f5f5f5;
+    --card-color: #333;
+    --button-color: #f5f5f5;
+    --button-text: #222;
+    --border-color: #666;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+header {
+    background-color: var(--card-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+main {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: var(--card-color);
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--button-color);
+    color: var(--button-text);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#char-count,
+#word-count {
+    font-size: 14px;
+}
+
+.warning {
+    color: orange;
+}
+
+.over {
+    color: red;
+    font-weight: bold;
+}
