@@ -1,7 +1,0 @@
-# Day 8 Reflection
-
-The most difficult concept in this course was understanding how different parts of a web application work together, especially how databases, APIs, and the frontend communicate. At first, some technical terms and Git commands were confusing, and I sometimes struggled to understand why a change was not appearing as expected. I overcame these challenges by following step-by-step instructions, practising with small examples, testing my work, and correcting errors instead of giving up. Working through the daily assignments also helped me become more comfortable with HTML, CSS, JavaScript, and GitHub.
-
-Based on the feedback and lessons from my capstone project, I would improve the user experience and the testing process. I would make the delivery workflow clearer for retailers, dispatchers, and riders, and add more systematic tests for status updates, invalid requests, and network failures. I would also document the evidence from each test so that it is easier to demonstrate what works and identify what needs improvement.
-
-Next, I want to learn more about backend development, database design, and API integration. I would like to practise building applications that store data reliably and update information across different users in real time. I also want to improve my understanding of automated testing, deployment, and system security. These skills will help me build more reliable projects and prepare for more advanced software development work.
